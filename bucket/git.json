@@ -12,7 +12,7 @@
             "hash": "7bf8da2b46f40c98d18a5f9c36e5b90df258936f43a0d230d0f29e0d729e3283"
         }
     },
-    "bin": [ "cmd\\git.exe", "cmd\\gitk.exe", "cmd\\git-gui.exe" ],
+    "bin": [ "cmd\\git.exe", "cmd\\gitk.exe", "cmd\\git-gui.exe", ".\\git-bash.exe" ],
     "post_install": [
         "git config --global credential.helper wincred"
     ],
